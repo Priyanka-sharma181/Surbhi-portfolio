@@ -114,8 +114,9 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16 justify-center place-items-center">
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+              {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16"> */}
                 <div className="bg-slate-800/50 backdrop-blur-lg border border-emerald-500/20 rounded-2xl p-8 hover:border-emerald-500/50 transition-all hover:transform hover:scale-105">
                   <div className="bg-emerald-500/10 w-14 h-14 rounded-xl flex items-center justify-center mb-4">
                     <Award className="w-7 h-7 text-emerald-400" />
@@ -140,17 +141,7 @@ function App() {
                   </p>
                 </div>
 
-                <div className="bg-slate-800/50 backdrop-blur-lg border border-emerald-500/20 rounded-2xl p-8 hover:border-emerald-500/50 transition-all hover:transform hover:scale-105">
-                  <div className="bg-emerald-500/10 w-14 h-14 rounded-xl flex items-center justify-center mb-4">
-                    <Target className="w-7 h-7 text-emerald-400" />
-                  </div>
-                  <h3 className="text-2xl font-bold text-white mb-2">
-                    600% ROAS
-                  </h3>
-                  <p className="text-slate-400">
-                    Average improvement in campaign performance metrics
-                  </p>
-                </div>
+               
               </div>
             </div>
           </div>
