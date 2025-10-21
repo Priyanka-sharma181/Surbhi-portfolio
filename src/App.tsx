@@ -332,9 +332,9 @@ function App() {
                 {/* <span className="px-5 py-3 bg-emerald-500/10 text-emerald-400 rounded-xl text-sm font-medium border border-emerald-500/30 hover:bg-emerald-500/20 transition">
                   Meta Blueprint Certification
                 </span> */}
-                <span className="px-5 py-3 bg-emerald-500/10 text-emerald-400 rounded-xl text-sm font-medium border border-emerald-500/30 hover:bg-emerald-500/20 transition">
+                {/* <span className="px-5 py-3 bg-emerald-500/10 text-emerald-400 rounded-xl text-sm font-medium border border-emerald-500/30 hover:bg-emerald-500/20 transition">
                   Display & Video Ads – Advanced
-                </span>
+                </span> */}
                 <span className="px-5 py-3 bg-emerald-500/10 text-emerald-400 rounded-xl text-sm font-medium border border-emerald-500/30 hover:bg-emerald-500/20 transition">
                   Executive PG Certificate – IIT Roorkee (2025)
                 </span>
@@ -346,7 +346,6 @@ function App() {
         {activeSection === "projects" && (
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-white mb-8">Key Projects</h2>
-
             <div className="bg-slate-800/50 backdrop-blur-lg border border-emerald-500/20 rounded-2xl p-8 hover:border-emerald-500/50 transition-all">
               <div className="flex items-start justify-between mb-4">
                 <div>
@@ -357,9 +356,9 @@ function App() {
                     Beauty E-Commerce
                   </span>
                 </div>
-                <div className="bg-emerald-500/10 px-4 py-2 rounded-lg">
+                {/* <div className="bg-emerald-500/10 px-4 py-2 rounded-lg">
                   <span className="text-emerald-400 font-bold">+600% ROAS</span>
-                </div>
+                </div> */}
               </div>
               <ul className="space-y-3 text-slate-300">
                 <li className="flex gap-3">
@@ -370,11 +369,11 @@ function App() {
                   </span>
                 </li>
                 <li className="flex gap-3">
-                  <span className="text-emerald-400 mt-1">•</span>
-                  <span>
+                  {/* <span className="text-emerald-400 mt-1">•</span> */}
+                  {/* <span>
                     Implemented ad scheduling + advanced audience layering;
                     improved ROAS by 600%.
-                  </span>
+                  </span> */}
                 </li>
               </ul>
             </div>
